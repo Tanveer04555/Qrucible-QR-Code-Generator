@@ -1,20 +1,25 @@
-//
-//  QrucibleApp.swift
-//  Qrucible
-//
-//  Created by Rehan Khan on 11/07/2024.
-//
 
 import SwiftUI
 
 @main
 struct QrucibleApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @State var isShowingSplash = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            if isShowingSplash {
+                SplashView()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                            withAnimation {
+                                isShowingSplash = false
+                            }
+                        }
+                    }
+            } else {
+                NavigationView{
+                    ContentView()
+                }
+            }
         }
     }
 }

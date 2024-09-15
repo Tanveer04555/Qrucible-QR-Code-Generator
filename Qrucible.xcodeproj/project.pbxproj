@@ -13,6 +13,14 @@
 		858FE0112C3FAE5E00FED3F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858FE0102C3FAE5E00FED3F0 /* Preview Assets.xcassets */; };
 		858FE0132C3FAE5E00FED3F0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE0122C3FAE5E00FED3F0 /* Persistence.swift */; };
 		858FE0162C3FAE5E00FED3F0 /* Qrucible.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 858FE0142C3FAE5E00FED3F0 /* Qrucible.xcdatamodeld */; };
+		858FE01D2C3FAE9300FED3F0 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE01C2C3FAE9300FED3F0 /* SplashView.swift */; };
+		858FE01F2C3FAE9D00FED3F0 /* EnterLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE01E2C3FAE9D00FED3F0 /* EnterLinkView.swift */; };
+		858FE0212C3FB27000FED3F0 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE0202C3FB27000FED3F0 /* QRView.swift */; };
+		858FE0232C3FB27B00FED3F0 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE0222C3FB27B00FED3F0 /* HistoryView.swift */; };
+		858FE0252C3FB28900FED3F0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE0242C3FB28900FED3F0 /* SettingsView.swift */; };
+		858FE0272C3FB29100FED3F0 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE0262C3FB29100FED3F0 /* AboutView.swift */; };
+		858FE0292C3FB4B200FED3F0 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE0282C3FB4B200FED3F0 /* HistoryCell.swift */; };
+		858FE02B2C3FF32D00FED3F0 /* QRCodeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FE02A2C3FF32D00FED3F0 /* QRCodeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +31,14 @@
 		858FE0102C3FAE5E00FED3F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		858FE0122C3FAE5E00FED3F0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		858FE0152C3FAE5E00FED3F0 /* Qrucible.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Qrucible.xcdatamodel; sourceTree = "<group>"; };
+		858FE01C2C3FAE9300FED3F0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		858FE01E2C3FAE9D00FED3F0 /* EnterLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLinkView.swift; sourceTree = "<group>"; };
+		858FE0202C3FB27000FED3F0 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
+		858FE0222C3FB27B00FED3F0 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		858FE0242C3FB28900FED3F0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		858FE0262C3FB29100FED3F0 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		858FE0282C3FB4B200FED3F0 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		858FE02A2C3FF32D00FED3F0 /* QRCodeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +72,15 @@
 			isa = PBXGroup;
 			children = (
 				858FE0092C3FAE5C00FED3F0 /* QrucibleApp.swift */,
+				858FE01C2C3FAE9300FED3F0 /* SplashView.swift */,
 				858FE00B2C3FAE5C00FED3F0 /* ContentView.swift */,
+				858FE01E2C3FAE9D00FED3F0 /* EnterLinkView.swift */,
+				858FE0202C3FB27000FED3F0 /* QRView.swift */,
+				858FE0222C3FB27B00FED3F0 /* HistoryView.swift */,
+				858FE02A2C3FF32D00FED3F0 /* QRCodeDetailView.swift */,
+				858FE0242C3FB28900FED3F0 /* SettingsView.swift */,
+				858FE0282C3FB4B200FED3F0 /* HistoryCell.swift */,
+				858FE0262C3FB29100FED3F0 /* AboutView.swift */,
 				858FE00D2C3FAE5E00FED3F0 /* Assets.xcassets */,
 				858FE0122C3FAE5E00FED3F0 /* Persistence.swift */,
 				858FE0142C3FAE5E00FED3F0 /* Qrucible.xcdatamodeld */,
@@ -144,9 +168,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				858FE0162C3FAE5E00FED3F0 /* Qrucible.xcdatamodeld in Sources */,
+				858FE02B2C3FF32D00FED3F0 /* QRCodeDetailView.swift in Sources */,
+				858FE0232C3FB27B00FED3F0 /* HistoryView.swift in Sources */,
+				858FE01F2C3FAE9D00FED3F0 /* EnterLinkView.swift in Sources */,
+				858FE0252C3FB28900FED3F0 /* SettingsView.swift in Sources */,
+				858FE0272C3FB29100FED3F0 /* AboutView.swift in Sources */,
 				858FE0132C3FAE5E00FED3F0 /* Persistence.swift in Sources */,
+				858FE01D2C3FAE9300FED3F0 /* SplashView.swift in Sources */,
 				858FE00C2C3FAE5C00FED3F0 /* ContentView.swift in Sources */,
 				858FE00A2C3FAE5C00FED3F0 /* QrucibleApp.swift in Sources */,
+				858FE0212C3FB27000FED3F0 /* QRView.swift in Sources */,
+				858FE0292C3FB4B200FED3F0 /* HistoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -262,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -282,11 +314,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Qrucible/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Qrucible requires access to your photo library to save the generated QR code.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,9 +328,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Qrucible;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,11 +348,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Qrucible/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Qrucible requires access to your photo library to save the generated QR code.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +362,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Qrucible;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
